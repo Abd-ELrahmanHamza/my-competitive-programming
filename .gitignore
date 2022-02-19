@@ -4,3 +4,6 @@ Graphs/CMakeLists.txt
 Greedy/.idea/
 Greedy/cmake-build-debug/
 Greedy/CMakeLists.txt
+STL/.idea/
+STL/cmake-build-debug/
+STL/CMakeLists.txt
