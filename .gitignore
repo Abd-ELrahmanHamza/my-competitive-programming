@@ -7,3 +7,6 @@ Greedy/CMakeLists.txt
 STL/.idea/
 STL/cmake-build-debug/
 STL/CMakeLists.txt
+Contest/.idea/
+Contest/cmake-build-debug/
+Contest/CMakeLists.txt
