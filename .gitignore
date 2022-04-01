@@ -10,3 +10,9 @@ STL/CMakeLists.txt
 Contest/.idea/
 Contest/cmake-build-debug/
 Contest/CMakeLists.txt
+ASCIS/.idea/
+ASCIS/cmake-build-debug/
+ASCIS/CMakeLists.txt
+Microsoft/.idea/
+Microsoft/cmake-build-debug/
+Microsoft/CMakeLists.txt
