@@ -27,7 +27,6 @@ int main() {
             int startM = stoi(start.substr(3, 2));
             int endH = stoi(end.substr(0, 2));
             int endM = stoi(end.substr(3, 2));
-//            cout << "start = " << startH << ":" << startM << " end = " << endH << ":" << endM << endl;
             result += endH - startH;
             if (startM > endM) {
                 result--;
@@ -35,9 +34,7 @@ int main() {
             } else
                 totalMin += endM - startM;
         }
-//        cout << totalMin << endl;
         result += totalMin / 60;
-//        cout << result << endl;
         if (result >= m)
             cout << "YES\n";
         else
