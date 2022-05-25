@@ -127,23 +127,8 @@ int main() {
                                        {0, "Khaled"},
                                        {0, "Hossam"}};
     bool HA = false, KH = false;
-//    for (auto p: result)cout << p.second << " " << p.first << endl;
-    for (ll i = 0; i < n; i++) {
-        if (!HA) {
-            result[0].first += v[i];
-            HA = true;
-        } else if (!KH) {
-            result[1].first += v[i];
-            KH = true;
-        } else {
-            result[2].first += v[i];
-            HA = KH = false;
-        }
-    }
+    for (ll i = 0; i < n; i++) result[i%3].first += v[i];
     sort(result.begin(), result.end());
-//    for (auto p: result)cout << p.second << " " << p.first << endl;
-//    cout << result[2].first << " " << result[1].first << " " << result[0].first << endl;
-//    cout << result[2].second << " " << result[1].second << " " << result[0].second << endl;
     if (result[2].first == result[1].first && result[2].first == result[0].first)
         cout << "Draw";
     else if (result[2].first != result[1].first)
