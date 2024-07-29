@@ -1,0 +1,13 @@
+# ninja log v5
+2	45	1715361782731415200	build.ninja	8918525f4db19ec4
+2	1206	1715358906925197100	CMakeFiles/Codeforces_Round_944__Div__4_.dir/B._Different_String.cpp.o	645c19151c33f06
+1130	1241	1715359364432964000	Codeforces_Round_944__Div__4_	2c761be6b8395b97
+3	1106	1715361767151791500	CMakeFiles/Codeforces_Round_944__Div__4_.dir/D._Binary_Cut.cpp.o	23833e5cb18e5244
+2	236	1715358587921154800	CMakeFiles/Codeforces_Round_944__Div__4_.dir/A._My_First_Sorting_Problem.cpp.o	6f822f66a58bc069
+2	1129	1715359364325505700	CMakeFiles/Codeforces_Round_944__Div__4_.dir/C._Clock_and_Strings.cpp.o	8a9bba4fb4c79c00
+2	24	1715361782731415200	build.ninja	8918525f4db19ec4
+2	80	1715361782817683300	Codeforces_Round_944__Div__4_	532899d443ff8111
+3	1261	1715361806907779800	CMakeFiles/Codeforces_Round_944__Div__4_.dir/D._Binary_Cut.cpp.o	23833e5cb18e5244
+1261	1566	1715361807212413100	Codeforces_Round_944__Div__4_	532899d443ff8111
+3	1116	1715361825112012400	CMakeFiles/Codeforces_Round_944__Div__4_.dir/D._Binary_Cut.cpp.o	23833e5cb18e5244
+1117	1197	1715361825192520300	Codeforces_Round_944__Div__4_	532899d443ff8111

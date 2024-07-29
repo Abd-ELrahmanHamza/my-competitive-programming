@@ -1,0 +1,60 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"jsonFile" : "directory-.-Debug-f5ebdc15457944623624.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.28"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0
+					]
+				}
+			],
+			"name" : "Debug",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0
+					],
+					"name" : "Codeforces_Round_938__Div__3_",
+					"targetIndexes" : 
+					[
+						0
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "Codeforces_Round_938__Div__3_::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-Codeforces_Round_938__Div__3_-Debug-3536d363808eafa51028.json",
+					"name" : "Codeforces_Round_938__Div__3_",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "/mnt/D/Problem solving/my-competitive-programming/Contests/Codeforces Round 938 (Div. 3)/cmake-build-debug",
+		"source" : "/mnt/D/Problem solving/my-competitive-programming/Contests/Codeforces Round 938 (Div. 3)"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 6
+	}
+}

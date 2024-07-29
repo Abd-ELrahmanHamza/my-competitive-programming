@@ -1,0 +1,3 @@
+/mnt/D/Problem solving/my-competitive-programming/Contests/Codeforces Round 954 (Div. 3)/cmake-build-debug/CMakeFiles/Codeforces_Round_954__Div__3_.dir
+/mnt/D/Problem solving/my-competitive-programming/Contests/Codeforces Round 954 (Div. 3)/cmake-build-debug/CMakeFiles/edit_cache.dir
+/mnt/D/Problem solving/my-competitive-programming/Contests/Codeforces Round 954 (Div. 3)/cmake-build-debug/CMakeFiles/rebuild_cache.dir
