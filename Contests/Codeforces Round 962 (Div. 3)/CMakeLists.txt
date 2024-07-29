@@ -5,5 +5,5 @@ set(CMAKE_CXX_STANDARD 14)
 
 add_executable(
         Codeforces_Round_962__Div__3_
-        B-Scale.cpp
+        C-Sort.cpp
 )
