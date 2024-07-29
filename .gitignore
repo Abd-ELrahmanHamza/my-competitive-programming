@@ -16,7 +16,7 @@ ASCIS/CMakeLists.txt
 Microsoft/.idea/
 Microsoft/cmake-build-debug/
 Microsoft/CMakeLists.txt
-**/.idea/
-**/.fleet/
-**/cmake-build-debug/
+**/.idea
+**/.fleet
+**/cmake-build-debug
 
