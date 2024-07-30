@@ -4,4 +4,4 @@ project(Codeforces_Round_957__Div__3_)
 set(CMAKE_CXX_STANDARD 17)
 
 add_executable(Codeforces_Round_957__Div__3_
-        "B-Angry Monk.cpp")
+        C-Gorilla-and-Permutation.cpp)
