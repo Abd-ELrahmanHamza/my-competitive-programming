@@ -3,4 +3,5 @@ project(Codeforces_Round_970__Div__3_)
 
 set(CMAKE_CXX_STANDARD 20)
 
-add_executable(Codeforces_Round_970__Div__3_ "A. Sakurako's Exam.cpp")
+add_executable(Codeforces_Round_970__Div__3_
+        "B. Square or Not.cpp")
