@@ -4,5 +4,4 @@ project(Codeforces_Round_970__Div__3_)
 set(CMAKE_CXX_STANDARD 20)
 
 add_executable(Codeforces_Round_970__Div__3_
-
-        "C. Longest Good Array.cpp")
+        main.cpp)
