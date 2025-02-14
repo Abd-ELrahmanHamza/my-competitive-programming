@@ -3,5 +3,6 @@ project(Codeforces_Round_1003__Div__4_)
 
 set(CMAKE_CXX_STANDARD 20)
 
-add_executable(Codeforces_Round_1003__Div__4_ "A. Skibidus and Amog'u.cpp"
+add_executable(Codeforces_Round_1003__Div__4_
+#        "A. Skibidus and Amog'u.cpp"
         "B. Skibidus and Ohio.cpp")
