@@ -5,4 +5,5 @@ set(CMAKE_CXX_STANDARD 20)
 
 add_executable(Codeforces_Round_1014__Div__2_
 #        "A. Kamilka and the Sheep.cpp"
-        "B. Lady Bug.cpp")
+#        "B. Lady Bug.cpp"
+        "C. Asuna and the Mosquitoes.cpp")
