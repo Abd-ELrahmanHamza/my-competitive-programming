@@ -7,4 +7,5 @@ add_executable(Codeforces_Round_1017__Div__4_
 #        "A. Trippi Troppi.cpp"
 #        "B. Bobritto Bandito.cpp"
 #        "C. Brr Brrr Patapim.cpp"
-        "D. Tung Tung Sahur.cpp")
+#        "D. Tung Tung Sahur.cpp"
+        "E. Boneca Ambalabu.cpp")
