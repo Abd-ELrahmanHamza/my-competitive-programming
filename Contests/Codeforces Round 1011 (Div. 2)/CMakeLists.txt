@@ -3,4 +3,6 @@ project(Codeforces_Round_1011__Div__2_)
 
 set(CMAKE_CXX_STANDARD 20)
 
-add_executable(Codeforces_Round_1011__Div__2_ "A. Serval and String Theory.cpp")
+add_executable(Codeforces_Round_1011__Div__2_
+#        "A. Serval and String Theory.cpp"
+        "B. Serval and Final MEX.cpp")
