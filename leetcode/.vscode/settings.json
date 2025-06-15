@@ -62,6 +62,7 @@
     "stdio.h": "c",
     "deque": "cpp",
     "vector": "cpp",
-    "iosfwd": "cpp"
+    "iosfwd": "cpp",
+    "cmath": "cpp"
   }
 }
