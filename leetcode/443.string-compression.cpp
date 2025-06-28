@@ -23,32 +23,36 @@ class Solution
             }
             else
             {
-                string cntStr = to_string(curCnt);
-                res += 1 + (curCnt == 1 ? 0 : cntStr.size());
-
+                int toAdd = (curCnt == 1 ? 0 : floor(log10(curCnt)) + 1);
+                int toAdd2 = toAdd;
+                res += 1 + toAdd;
                 chars[curIdx] = chars[i - 1];
                 curIdx++;
                 if (curCnt > 1)
                 {
-                    for (int j = 0; j < cntStr.size(); j++)
+                    while (curCnt)
                     {
-                        chars[curIdx++] = cntStr[j];
+                        chars[curIdx + toAdd-- - 1] = curCnt % 10 + '0';
+                        curCnt /= 10;
                     }
                 }
+                curIdx += toAdd2;
                 curCnt = 1;
             }
         }
-        string cntStr = to_string(curCnt);
+        int toAdd = (curCnt == 1 ? 0 : floor(log10(curCnt)) + 1);
+        int toAdd2 = toAdd;
+        res += 1 + toAdd;
         chars[curIdx] = chars[chars.size() - 1];
         curIdx++;
         if (curCnt > 1)
         {
-            for (int j = 0; j < cntStr.size(); j++)
+            while (curCnt)
             {
-                chars[curIdx++] = cntStr[j];
+                chars[curIdx + toAdd-- - 1] = curCnt % 10 + '0';
+                curCnt /= 10;
             }
         }
-        res += 1 + (curCnt == 1 ? 0 : floor(log10(curCnt)) + 1);
         return res;
     }
 };
