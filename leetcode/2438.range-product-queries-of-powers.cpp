@@ -29,15 +29,8 @@ public:
             i++;
             n = (n >> 1);
         }
-        for (int i = 0; i < 50; i++) {
-            cout << powers[i] << " ";
-        }
-        cout << endl;
         for (int i = 1; i < 50; i++)
             powers[i] = powers[i - 1] + powers[i];
-        for (int i = 0; i < 50; i++) {
-            cout << powers[i] << " ";
-        }
         vector<int> ans(queries.size());
         for (int i = 0; i < queries.size(); i++) {
             int preSum = powers[queries[i][1]] - (queries[i][0] - 1 >= 0 ? powers[queries[i][0] - 1] : 0);
