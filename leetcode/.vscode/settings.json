@@ -81,6 +81,7 @@
     "regex": "cpp",
     "valarray": "cpp",
     "bitset": "cpp",
-    "tuple": "cpp"
+    "tuple": "cpp",
+    "iomanip": "cpp"
   }
 }
