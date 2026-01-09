@@ -14,7 +14,7 @@ import java.util.Queue;
  * TreeNode(int val, TreeNode left, TreeNode right) { this.val = val; this.left
  * = left; this.right = right; } }
  */
-public class TreeNode {
+class TreeNode {
 
     int val;
     TreeNode left;
