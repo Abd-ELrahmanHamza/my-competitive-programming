@@ -12,22 +12,18 @@ public:
     bool areSimilar(vector<vector<int>>& mat, int k)
     {
         int rowSize = mat[0].size();
-        vector<vector<int>> newMat(mat.size(), vector<int>(mat[0].size()));
         for (int i = 0; i < mat.size(); i += 2) {
             for (int j = 0; j < mat[0].size(); j++) {
                 int newIdx = (((j - k) + rowSize) % rowSize + rowSize) % rowSize;
-                newMat[i][newIdx] = mat[i][j];
+                if (mat[i][newIdx] != mat[i][j]) {
+                    return false;
+                }
             }
         }
         for (int i = 1; i < mat.size(); i += 2) {
             for (int j = 0; j < mat[0].size(); j++) {
                 int newIdx = ((j + k) % rowSize + rowSize) % rowSize;
-                newMat[i][newIdx] = mat[i][j];
-            }
-        }
-        for (int i = 0; i < mat.size(); i++) {
-            for (int j = 0; j < mat[0].size(); j++) {
-                if (newMat[i][j] != mat[i][j]) {
+                if (mat[i][newIdx] != mat[i][j]) {
                     return false;
                 }
             }
